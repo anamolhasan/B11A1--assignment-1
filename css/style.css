@@ -45,6 +45,10 @@ p{
   border-radius: 8px;
   cursor: pointer;
 }
+.nav-btn:hover{
+    background-color: #09A15C;
+    color: white;
+}
 /* navbar end*/
 /* hero section start */
 .banner{
@@ -79,6 +83,10 @@ h5{
     border: none;
     box-shadow: gray 0px 5px 5px;
     cursor: pointer;
+}
+.herobtn:hover{
+    background-color: transparent;
+    color: black;
 }
 /* hero section end */
 /* pilars start */
@@ -119,16 +127,23 @@ h5{
 .btn1{
     margin-top: 30px;
     background-color: #5490F5;
-   
+}
+.btn1:hover{
+    background-color: #0943a7;
 }
 .btn2{
     margin-top: 30px;
     background-color: #09A15C;
-   
+}
+.btn2:hover{
+    background-color: #0a492d;
 }
 .btn3{
     margin-top: 30px;
     background-color: #FFC239;
+}
+.btn3:hover{
+    background-color: #664803;
 }
 .quote-section{
     background-color: white;
@@ -136,13 +151,12 @@ h5{
     margin: 30px 0px;
     border: 2px solid #d4d7da;
     border-radius: 16px;
-    position: relative;
-}
-.quote-img{
-    position: absolute;
 }
 .quote-desc{
-   padding-top: 30px;
+    padding-top: 30px;
+    background-image: url(/assets/quote-bg.png);
+    background-repeat: no-repeat;
+    background-position-y: left;
 }
 /* vision end */
 /* matters start */
@@ -179,6 +193,10 @@ select {
     border: 2px solid gray;
     border-radius: 4px;
 }
+select:hover{
+    background-color: #5490F5;
+    color: white;
+}
 /* matters end */
 .news{
     margin: 80px auto;
@@ -207,6 +225,11 @@ select {
     background-color: #006A50;
     margin-top: 65px;
 }
+.news-btn:hover{
+    background-color: transparent;
+    color: black;
+    border: 1px solid black;
+}
 
 .donate{
     margin: 80px auto;
@@ -223,17 +246,21 @@ select {
     gap: 30px;
     
 }
-.d-item{
-    border:  1px solid;
-    padding: 0px 15px;
-    border: rgb(219, 215, 215) solid 1px;
-    border-radius: 16px;
-    background-color: white;
-    cursor: pointer;
+.d-btn{
+  padding: 20px;
+  font-size: 40px;
+  font-weight: bold;
+  border: #dbd7d7 solid 1px;
+  border-radius: 16px;
+  background-color: white;
+  cursor: pointer;
 }
-
-.donate-item2{
-    background-color: #C6E4D6;
+.d-btn:hover{
+    background-color: cadetblue;
+    color: white;
+}
+.d-btn2{
+  background-color: #C6E4D6;
 }
 .donate-other{
     width: 1032px;
@@ -256,6 +283,11 @@ select {
     display:block;
     margin: 0px auto;
     background-color: #006A50;
+}
+.donate-btn:hover{
+    background-color: transparent;
+    color: black;
+    border: 1px black solid;
 }
 
 .footer-banner{
@@ -297,7 +329,10 @@ select {
     font-weight: bolder;
     cursor: pointer;
 }
-
+.footer-btn:hover{
+    background-color: rgb(4, 70, 4);
+    color: white;
+}
 .footer-end{
     margin: 40px auto;
     text-align: center;
