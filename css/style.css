@@ -43,7 +43,6 @@ p{
     justify-content: center;
     align-items: center;
     gap: 60px;
-
     background-color: #C6E4D6;
     border-radius: 20px;
     height: 560px;
@@ -83,10 +82,7 @@ h5{
     cursor: pointer;
 }
 
-.pillars{
-    width: 1280px;
-    margin: 80px auto;
-}
+
 .pillars-cards{
     display: flex;
     gap: 24px;
